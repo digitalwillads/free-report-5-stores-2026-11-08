@@ -396,9 +396,11 @@
    },
    "ads": {
     "google_30_days": 44,
-    "meta_live": 0,
-    "seen": "Google 44 in 30 days · Meta none live",
-    "flags": []
+    "meta_live": 200,
+    "seen": "Google 44 in 30 days · Meta 200 live",
+    "flags": [
+     "Huseyin's list says Meta ads: no. We saw some."
+    ]
    },
    "retail": {
     "note": "You sell through other stores: your site links \"Store Locator\", and 5 stores carry your products in our Shopping searches (Target, Nordstrom, UnderYours, and 2 more).",
@@ -586,39 +588,6 @@
       {
        "label": "Google's speed test",
        "link": "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fwww.inseasonjewelry.com%2Fcollections%2Fbaby-jewelry&form_factor=mobile"
-      }
-     ]
-    },
-    {
-     "kind": "no_meta_ads",
-     "module": "advertisers",
-     "angle": "Not on Instagram",
-     "parts": [
-      [
-       "Google's ad library shows ",
-       false
-      ],
-      [
-       "44 of your ads",
-       true
-      ],
-      [
-       " in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
-       false
-      ]
-     ],
-     "line": "Google's ad library shows 44 of your ads in the past 30 days, but we can't find a single live ad of yours on Facebook or Instagram.",
-     "subject": "no ads on Instagram",
-     "level": "Seen",
-     "source": "We cannot find a live ad of yours in Meta's ad library (searched \"In Season Jewelry\"). | Google's ad library shows 44 of your ads in the past 30 days, the newest last shown Nov 8, 2026.",
-     "proof": [
-      {
-       "label": "Meta's ad library",
-       "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=In%20Season%20Jewelry&search_type=keyword_unordered&media_type=all"
-      },
-      {
-       "label": "Google's ad library",
-       "link": "https://adstransparency.google.com/?region=US&domain=inseasonjewelry.com&preset-date=Last+30+days"
       }
      ]
     }
